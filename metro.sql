@@ -66,5 +66,37 @@ insert into registro(idL, idE, nombre) values
     (6, 17, "Santa Eduwiges"), (6, 18, "Día"), (6, 19, "Abastos"), (6, 20, "Parque de las Estrellas"),
     (6, 21, "Expo"), (6, 22, "Plaza del Sol");
 
+/*Linea 7*/
+insert into registro(idL, idE, nombre) values
+(7, 1, "Arco del Triunfo"),(7, 2, "Belenes"),(7, 3, "Mercado del Mar"),(7, 4, "Zapopan Centro"),(7, 5, "Plaza Patria"),
+(7, 6, "Circunvalación"),(7, 7, "División del Norte"),(7, 8, "Normal"),(7, 9, "Santuario"),(7, 10, "San Juan de Dios"),
+(7, 11, "Independencia Sur"),(7, 12, "Plaza de la Bandera"),(7, 13, "CUCEI"),(7, 14, "Plaza Revolución"),(7, 15, "Río Nilo"),
+(7, 16, "Tlaquepaque"),(7, 17, "Nodo Revolución"),(7, 18, "Central Camionera");
+
+/*Linea 8*/
+Insert into registro(idL, idE, nombre) values
+(8, 1, "Parque Metropolitano"),(8, 2, "La Estancia"),(8, 3, "Guadalupe"),(8, 4, "UNIVA"),(8, 5, "Juan Diego"),
+(8, 6, "Estampida"),(8, 7, "Inglaterra"),(8, 8, "Embajada"),(8, 9, "Monumento"),(8, 10, "Argentina"),
+(8, 11, "Francia"),(8, 12, "Madrid"),(8, 13, "Washington"),(8, 14, "Carteros"),(8, 15, "Agua Azul"),
+(8, 16, "Gonzáles Gallo"),(8, 17, "CUCEI"),(8, 18, "Medrano"),(8, 19, "San Rafael"),(8, 20, "Poetas");
+
+/*Linea 9*/
+Insert into registro(idL, idE, nombre) values
+(9, 1, "Barranca de Huentitán"),(9, 2, "Zoológico Guadalajara"),(9, 3, "Independencia Norte"),(9, 4, "Lomas del Paraíso"),(9, 5, "Rancho Nuevo"),
+(9, 6, "La Esperiencia"),(9, 7, "El Batán"),(9, 8, "Periférico Norte"),(9, 9, "La Cantera"),(9, 10, "Tabachines"),
+(9, 11, "Constitución"),(9, 12, "San Isidro"),(9, 13, "Belenes"),(9, 14, "Tuzanía"),(9, 15, "Santa Margarita"),
+(9, 16, "Acueducto"),(9, 17, "5 de Mayo"),(9, 18, "San Juan de Ocotán"),(9, 19, "Vallarta"),(9, 20, "Estadio Chivas"),
+(9, 21, "Ciudad Judicial"),(9, 22, "Ciudad Granja"),(9, 23, "Parque Metropolitano"),(9, 24, "Chapalita Inn"),(9, 25, "El Coli"),
+(9, 26, "Felipe Ruvalcaba"),(9, 27, "Miramar"),(9, 28, "Mariano Otero"),(9, 29, "El Briseño"),(9, 30, "Agricola"),
+(9, 31, "López Mateos"),(9, 32, "ITESO"),(9, 33, "Terminal de Autobuses"),(9, 34, "Periférico Sur"),(9, 35, "San Sebastianito"),
+(9, 36, "8 de Julio"),(9, 37, "Toluquilla"),(9, 38, "Adolf Horn"),(9, 39, "Artesanos"),(9, 40, "Las Pintas"),
+(9, 41, "Carretera a Chapala");
+
+/*Linea 10*/
+Insert into registro(idL, idE, nombre) values
+(10, 1, "Fray Angélico"),(10, 2, "Periférico"),(10, 3, "Adolf Horn"),(10, 4, "Concepción"),(10, 5, "Carretera a Tlajomulco"),
+(10, 6, "Lomas del Sur"),(10, 7, "Cortijo"),(10, 8, "Escobedo"),(10, 9, "Circuito Metropolitano");
+
+
 select * from registro where idL=6;
 -- delete from registro;
