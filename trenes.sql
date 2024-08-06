@@ -9,11 +9,20 @@ create table if not exists registro(
     nombre varchar(60),
     primary key(idRegistro)
 );
--- drop table registro;
+
+create table if not exists nombresMatriz(
+	id int not null auto_increment,
+    nombre varchar(60),
+    primary key(idRegistro)
+);
+
+drop table registro;
 
 -- TIPOS
 -- 1 - nodo de cruce
 -- 2 - normal
+
+-- SELECT * FROM registro;
 
 /*LINEA 1*/
 insert into registro(idL, idE, nombre, tipo) values 
@@ -27,7 +36,7 @@ insert into registro(idL, idE, nombre, tipo) values
 
 /*LINEA 2*/
 insert into registro(idL, idE, nombre, tipo) values 
-	(2, 1, "Basílica", 2), (2, 2, "Sanatorio", 2), (2, 3, "Colegio Vctoria", 2), (2, 4, "Plaa Patria", 2),
+	(2, 1, "Basílica", 2), (2, 2, "Sanatorio", 2), (2, 3, "Colegio Victoria", 2), (2, 4, "Plaza Patria", 1),
     (2, 5, "Terranova", 2), (2, 6, "Colón", 1), (2, 7, "Lienzo Charro", 2), (2, 8, "Mezquitán", 1),
     (2, 9, "Panteón de Belén", 2), (2, 10, "Procuraduría", 2), (2, 11, "Facultad de Medicina", 1), (2, 12, "Obrero", 2),
     (2, 13, "Talpita", 2), (2, 14, "El Jaraz", 2), (2, 15, "Plutarco Elías Calles", 2), (2, 16, "Haciendas", 2),
@@ -46,7 +55,7 @@ insert into registro(idL, idE, nombre, tipo) values
 	(4, 1, "Central Sur", 2), (4, 2, "Vallarta", 1), (4, 3, "Jardines de la Paz", 2), (4, 4, "U. Panamericana", 2),
     (4, 5, "Juan Palomar", 2), (4, 6, "Seminario", 1), (4, 7, "Cámara de Comercio", 2), (4, 8, "Minerva", 2),
     (4, 9, "Centro Magno", 2), (4, 10, "Américas", 1), (4, 11, "Chapultepec", 2), (4, 12, "Paraninfo", 2),
-    (4, 13, "Juárez", 1), (4, 14, "Plaza Universidad", 2), (4, 15, "Sand Juan de Dios", 1), (4, 16, "Belisario Domínguez", 2),
+    (4, 13, "Juárez", 1), (4, 14, "Plaza Universidad", 2), (4, 15, "San Juan de Dios", 1), (4, 16, "Belisario Domínguez", 2),
     (4, 17, "Oblatos 2", 2), (4, 18, "Cristobal de Oñate", 2), (4, 19, "San Andrés", 2), (4, 20, "San Jacinto", 2),
     (4, 21, "La Aurora", 2), (4, 22, "Tetlán", 2);
 
@@ -94,9 +103,14 @@ Insert into registro(idL, idE, nombre, tipo) values
 (9, 26, "Felipe Ruvalcaba", 2),(9, 27, "Miramar", 2),(9, 28, "Mariano Otero", 2),(9, 29, "El Briseño", 2),(9, 30, "Agricola", 2),
 (9, 31, "López Mateos", 2),(9, 32, "ITESO", 2),(9, 33, "Terminal de Autobuses", 2),(9, 34, "Periférico Sur", 1),(9, 35, "San Sebastianito", 2),
 (9, 36, "8 de Julio", 2),(9, 37, "Toluquilla", 2),(9, 38, "Adolf Horn", 1),(9, 39, "Artesanos", 2),(9, 40, "Las Pintas", 2),
-(9, 41, "Carretera a Chapala", 2);
+(9, 41, "Chapala", 2);
 
 /*Linea 10*/
 Insert into registro(idL, idE, nombre, tipo) values
 (10, 1, "Fray Angélico", 1),(10, 2, "Periférico", 2),(10, 3, "Adolf Horn", 1),(10, 4, "Concepción", 2),(10, 5, "Carretera a Tlajomulco", 2),
-(10, 6, "Lomas del Sur", 2),(10, 7, "Cortijo", 2),(10, 8, "Escobedo", 2),(10, 9, "Circuito Metropolitano", 1);
+(10, 6, "Lomas del Sur", 2),(10, 7, "Cortijo", 2),(10, 8, "Escobedo", 2),(10, 9, "Circuito Metropolitano", 2);
+
+-- MATRIZ                             
+-- INSERT INTO nombresMatriz(id, nombre) values 
+	-- (7,"División del Norte"),(9,"Colón"), (1,"Mezquitán"), (2,"Facultad de Medicina"), (3,"Seminario"), (4,"Américas"), (5,"Juárez"), (6,"San Juan de Dios"), 
+   --  ;
