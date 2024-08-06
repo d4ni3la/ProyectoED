@@ -8,11 +8,11 @@ public class ProyectoED2 {
         try {
             algoritmoRuta ruta = new algoritmoRuta();
             ArrayList<Registro> busqueda = new ArrayList<>();
-
+            
             ruta.busqueda(busqueda);
-            //ruta.viajeEnL("2", "4", "6", "4");
             //ruta.mismaLinea("2", "6", "4", true);
             //System.out.println(ruta.nodoCercano("1", "2"));
+            
         } catch (Exception e) {
             // Manejo de la excepción
             System.err.println("Se ha producido un error: " + e.getMessage());

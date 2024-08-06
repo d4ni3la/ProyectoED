@@ -412,9 +412,6 @@ public class algoritmoRuta {
         }
 
     }
-
-    
-    
     
     //MATIZ 
     public void floyd(int inicio ,int destino) {
