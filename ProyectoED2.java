@@ -19,7 +19,9 @@ public class ProyectoED2 {
         alanCode ruta = new alanCode();
         ArrayList<Registro> busqueda = new ArrayList<>();
         
-        ruta.busqueda(busqueda);
+        //ruta.busqueda(busqueda);
+        //ruta.viajeEnL("2", "4", "6", "4");
+        //ruta.mismaLinea("2", "6", "4", true);
         
         //System.out.println(ruta.nodoCercano("1", "2"));
         

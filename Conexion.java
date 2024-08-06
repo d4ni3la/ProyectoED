@@ -31,7 +31,7 @@ public class Conexion {
             Class.forName("com.mysql.jdbc.Driver");
             conectar= DriverManager.getConnection(cadena,usuario,contrasenia);
             //JOptionPane.showMessageDialog(null, "Se conecto correctamente a la base de datos");
-            System.out.println("\tsConexion establecida");
+            //System.out.println("\tsConexion establecida");
             
         }catch(Exception e){
             JOptionPane.showMessageDialog(null, "No se conecto a la base de datos, error: "+ e.toString());
